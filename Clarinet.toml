@@ -10,6 +10,11 @@ path = 'contracts/bid-submission.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.evaluation-criteria]
+path = 'contracts/evaluation-criteria.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.rfp-publication]
 path = 'contracts/rfp-publication.clar'
 clarity_version = 2
