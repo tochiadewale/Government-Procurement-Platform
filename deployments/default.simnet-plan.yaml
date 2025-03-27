@@ -50,9 +50,19 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: award-tracking
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/award-tracking.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: bid-submission
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/bid-submission.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: evaluation-criteria
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/evaluation-criteria.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: rfp-publication

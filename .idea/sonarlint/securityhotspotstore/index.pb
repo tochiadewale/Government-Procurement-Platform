@@ -11,3 +11,5 @@ L
 tests/bid-submission.test.ts,c/0/c005b4bcfb1a0e18677a22811f37df185103827e
 R
 "contracts/evaluation-criteria.clar,e/e/ee35ccf11b6e64c222ae4c06e67cbe743d832aed
+M
+contracts/award-tracking.clar,9/1/915162b26b6b4ae4b39e606270b4ba89f1be119d
